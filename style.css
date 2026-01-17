@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.2s linear;
+}
+.container{
+    padding: 2rem 5%;
+}
+.container .image-container{
+    columns: 17.5rem;
+    gap: 1.4rem;
+}
+.container .image-container img{
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 0.7rem;
+}
